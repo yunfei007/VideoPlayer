@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - ZFPlayer (3.2.2):
+    - ZFPlayer/Core (= 3.2.2)
+  - ZFPlayer/AVPlayer (3.2.2):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.2):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.2)
+
+DEPENDENCIES:
+  - Masonry
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZFPlayer: 8547effaab9e2764c2e9f72ecf32530d6bd96165
+
+PODFILE CHECKSUM: 8c05b6972ed817553af618382052c4343a49f122
+
+COCOAPODS: 1.5.3

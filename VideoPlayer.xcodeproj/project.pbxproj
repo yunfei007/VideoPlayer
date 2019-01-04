@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6AFDC129C98A09BBBA95DB4 /* libPods-VideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBE92CBCEF5DE2848A33E19 /* libPods-VideoPlayer.a */; };
 		ECF7589F21D621AE0040F6F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7589E21D621AE0040F6F3 /* AppDelegate.m */; };
 		ECF758A221D621AE0040F6F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758A121D621AE0040F6F3 /* ViewController.m */; };
 		ECF758A521D621AE0040F6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF758A321D621AE0040F6F3 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		ECF758AD21D621AF0040F6F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758AC21D621AF0040F6F3 /* main.m */; };
 		ECF758B721D621AF0040F6F3 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758B621D621AF0040F6F3 /* VideoPlayerTests.m */; };
 		ECF758C221D621AF0040F6F3 /* VideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758C121D621AF0040F6F3 /* VideoPlayerUITests.m */; };
+		ECF758D121D623B50040F6F3 /* ZFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758CF21D623B50040F6F3 /* ZFCollectionViewCell.m */; };
+		ECF758D521D623CA0040F6F3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF758D221D623CA0040F6F3 /* data.json */; };
+		ECF758D621D623CA0040F6F3 /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF758D421D623CA0040F6F3 /* ZFTableData.m */; };
+		ECF758D821D6257A0040F6F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF758D721D6257A0040F6F3 /* CoreGraphics.framework */; };
+		ECF758DA21D625820040F6F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF758D921D625820040F6F3 /* UIKit.framework */; };
+		ECF758DC21D6258B0040F6F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF758DB21D6258A0040F6F3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCBE92CBCEF5DE2848A33E19 /* libPods-VideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7B301B441F857AF2FB3E2 /* Pods-VideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF7589A21D621AE0040F6F3 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF7589D21D621AE0040F6F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECF7589E21D621AE0040F6F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		ECF758BD21D621AF0040F6F3 /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF758C121D621AF0040F6F3 /* VideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerUITests.m; sourceTree = "<group>"; };
 		ECF758C321D621AF0040F6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF758CF21D623B50040F6F3 /* ZFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCollectionViewCell.m; sourceTree = "<group>"; };
+		ECF758D021D623B50040F6F3 /* ZFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCollectionViewCell.h; sourceTree = "<group>"; };
+		ECF758D221D623CA0040F6F3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		ECF758D321D623CA0040F6F3 /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
+		ECF758D421D623CA0040F6F3 /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
+		ECF758D721D6257A0040F6F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECF758D921D625820040F6F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECF758DB21D6258A0040F6F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF8D18C6CD29C4BC532AB7F /* Pods-VideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF758DC21D6258B0040F6F3 /* Foundation.framework in Frameworks */,
+				ECF758DA21D625820040F6F3 /* UIKit.framework in Frameworks */,
+				ECF758D821D6257A0040F6F3 /* CoreGraphics.framework in Frameworks */,
+				A6AFDC129C98A09BBBA95DB4 /* libPods-VideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B8C0F63C445C6ED096CDAD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7B301B441F857AF2FB3E2 /* Pods-VideoPlayer.debug.xcconfig */,
+				FAF8D18C6CD29C4BC532AB7F /* Pods-VideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0BBAD175F8A395E801D480F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF758DB21D6258A0040F6F3 /* Foundation.framework */,
+				ECF758D921D625820040F6F3 /* UIKit.framework */,
+				ECF758D721D6257A0040F6F3 /* CoreGraphics.framework */,
+				DCBE92CBCEF5DE2848A33E19 /* libPods-VideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECF7589121D621AE0040F6F3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				ECF758B521D621AF0040F6F3 /* VideoPlayerTests */,
 				ECF758C021D621AF0040F6F3 /* VideoPlayerUITests */,
 				ECF7589B21D621AE0040F6F3 /* Products */,
+				3B8C0F63C445C6ED096CDAD7 /* Pods */,
+				E0BBAD175F8A395E801D480F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +149,11 @@
 				ECF7589E21D621AE0040F6F3 /* AppDelegate.m */,
 				ECF758A021D621AE0040F6F3 /* ViewController.h */,
 				ECF758A121D621AE0040F6F3 /* ViewController.m */,
+				ECF758D021D623B50040F6F3 /* ZFCollectionViewCell.h */,
+				ECF758CF21D623B50040F6F3 /* ZFCollectionViewCell.m */,
+				ECF758D221D623CA0040F6F3 /* data.json */,
+				ECF758D321D623CA0040F6F3 /* ZFTableData.h */,
+				ECF758D421D623CA0040F6F3 /* ZFTableData.m */,
 				ECF758A321D621AE0040F6F3 /* Main.storyboard */,
 				ECF758A621D621AF0040F6F3 /* Assets.xcassets */,
 				ECF758A821D621AF0040F6F3 /* LaunchScreen.storyboard */,
@@ -139,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF758C621D621AF0040F6F3 /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
 			buildPhases = (
+				A0ED7EFBF1F1291CE0E30232 /* [CP] Check Pods Manifest.lock */,
 				ECF7589621D621AE0040F6F3 /* Sources */,
 				ECF7589721D621AE0040F6F3 /* Frameworks */,
 				ECF7589821D621AE0040F6F3 /* Resources */,
+				CD572C69704ED38E7B25E3D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +289,7 @@
 				ECF758AA21D621AF0040F6F3 /* LaunchScreen.storyboard in Resources */,
 				ECF758A721D621AF0040F6F3 /* Assets.xcassets in Resources */,
 				ECF758A521D621AE0040F6F3 /* Main.storyboard in Resources */,
+				ECF758D521D623CA0040F6F3 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +309,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0ED7EFBF1F1291CE0E30232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD572C69704ED38E7B25E3D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer-resources.sh",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECF7589621D621AE0040F6F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF758D121D623B50040F6F3 /* ZFCollectionViewCell.m in Sources */,
 				ECF758A221D621AE0040F6F3 /* ViewController.m in Sources */,
+				ECF758D621D623CA0040F6F3 /* ZFTableData.m in Sources */,
 				ECF758AD21D621AF0040F6F3 /* main.m in Sources */,
 				ECF7589F21D621AE0040F6F3 /* AppDelegate.m in Sources */,
 			);
@@ -433,11 +526,13 @@
 		};
 		ECF758C721D621AF0040F6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A7B301B441F857AF2FB3E2 /* Pods-VideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWX3NAW2HM;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +545,13 @@
 		};
 		ECF758C821D621AF0040F6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF8D18C6CD29C4BC532AB7F /* Pods-VideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWX3NAW2HM;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
